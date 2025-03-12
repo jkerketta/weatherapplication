@@ -6,7 +6,7 @@ document.getElementById('city').addEventListener('keydown', function (e) {
 });
 
 function getWeather() {
-    const apiKey = 'apiKey';
+    const apiKey = 'yourApiKey';
     const city = document.getElementById('city').value;
 
     if (!city) {
